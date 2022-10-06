@@ -1,0 +1,19 @@
+body {
+    /* background: linear-gradient(to top, rgba(238, 172, 122, 0.446)0%,rgba(238, 172, 122, 0.446)30%,)url("/public/images/food.jpg"); */
+    background-color: rgba(241, 160, 30, 0.203);
+    background-image: url("/public/images/food.png");
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+nav {
+    background-color: #f47506ad;
+}
+
+.card-header {
+    background-color: #f68522cd;
+}
+
+.card-body {
+    background-color: #fea455ba;
+}

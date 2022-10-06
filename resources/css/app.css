@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Sora:wght@400;700&family=Ubuntu:ital,wght@1,300&display=swap');
+body {
+    /* background: linear-gradient(to top, rgba(238, 172, 122, 0.446)0%,rgba(238, 172, 122, 0.446)30%,)url("/public/images/food.jpg"); */
+    background-color: rgba(241, 160, 30, 0.203);
+    background-image: url("/public/images/food.png");
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+nav {
+    background-color: #f47506ad;
+}
+
+html,body {
+    overflow-x: hidden;
+}
+
+#background {
+    margin-top: 3px;
+    padding: 1px;
+    background-color: rgb(255, 190, 11);
+    border-radius: 100px;
+    width: 90%;
+    z-index: -1;
+}
+
+.home,.edit,.create {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 100px;
+    margin: 1px;
+    width: 33%;
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+    font-size: large;
+}
+
+.container .home,.edit,.create {
+    color: #f47506;
+    transition: background-color 1s;
+    transition: color 1s;
+}
+
+.container .create:hover{
+    margin:0%;
+    color: white !important;
+    background-color: #f47506;
+}
+
+.container .home:hover{
+    margin:0%;
+    color: white !important;
+    background-color: #f47506;
+}
+
+.home-blade .home {
+    color: white !important;
+    background-color: #f47506;
+}
+
+.create-blade .create {
+    color: white !important;
+    background-color: #f47506;
+}
+
+.edit-blade .edit {
+    color: white !important;
+    background-color: #f47506;
+}
+
+.shutter {
+    text-align: center;
+    border-radius: 50px;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selectedButton {
+    margin: 2px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.submit-edit {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100px;
+    bottom: 20%;
+}
+
+.submit-finish {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100px;
+    bottom: 20%;
+}
+
+.edit-body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card {
+    background-color: rgba(241, 160, 30, 0);
+}
+
+.table {
+    width: 95%;
+    margin: auto;
+    margin-top: 3px;
+}
+
+table {
+    font-weight: bold;
+}
+
+tr {
+    background-color: #f887247e;
+    box-shadow: inset;
+}
+
+thead {
+    background-color: #f38c55;
+}
+
+tbody:nth-child(odd) {
+    background: #fcc051a2; /* 奇数行の背景色を指定する */
+    }
+
+.contents {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #ffa300;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 500px;
+    border-bottom: 4px solid #d37800;
+}
+
+.btn:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.btn-red {
+    display: inline-block;
+    text-align: center;
+    background-color: #ff0000;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 500px;
+    border-bottom: 4px solid #d31900;
+}
+
+.btn-red:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.camera {
+    width: 50rem;
+    height: 30rem;
+}
